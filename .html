@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Todo List App in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+        <img url="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAATlBMVEX///8AAAA/Pz+/v79DQ0NiYmLX19eYmJji4uL8/PwuLi4WFhaurq6IiIisrKxISEiCgoIyMjLb29v29vZLS0ttbW2SkpIQEBCzs7Nzc3NGrq78AAABFklEQVR4nO3b0XKCMBBA0aRFREQUbGv9/x+t7Wt9645bM+f8wR0IyZDZUgAAAAAAAAAAAACAZuzmTffyYN1m2kV39GNNMa6xHes+p6PW/RAa0mV11HqM7OjzOmrtA0O2mSHbwJBTZsgpMKSZJ9LMGinHvI63yI4ytLKPlHXJ6ViCd/bbWWtq46wFAAAAAE9qeH244N+lP+aU29Bxju54z8j4do3t+MjqiL3nKedLXsjlHBgy5XXU+hkYcsgMOQj5rZlXq5nFnnnRHvr5LeWa1RG8Id6WScoRZZmiO0ozh0YAAAAAeEY5I65zOyOuoRNWRlwjGHG9p5mBSiOuEYy43tPKV8uI658ZcQUAAAAAAAAAAAAA/p8vAnkcBX+sF3UAAAAASUVORK5CYII=" alt="icon">
+        <input type="text" placeholder="Add a new task">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
